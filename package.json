@@ -1,0 +1,33 @@
+{
+  "name": "ejs-stream",
+  "version": "1.0.0",
+  "description": "Through stream that renders objects with ejs templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kapetan/ejs-stream"
+  },
+  "keywords": [
+    "ejs",
+    "stream",
+    "template",
+    "through"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kapetan/ejs-stream/issues"
+  },
+  "homepage": "https://github.com/kapetan/ejs-stream",
+  "dependencies": {
+    "ejs": "^2.0.8",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.4.7",
+    "tape": "^3.0.3"
+  }
+}
